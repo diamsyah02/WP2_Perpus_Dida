@@ -73,7 +73,6 @@ class Siswa extends CI_Controller {
         'required' => 'Agama Harus diisi',
       ]
     );
-    echo $this->form_validation->run();die;
     return $this->form_validation->run();
   }
 }
