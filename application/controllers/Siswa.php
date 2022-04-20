@@ -7,11 +7,6 @@ class Siswa extends CI_Controller {
 		$this->load->view('siswa/v-form-siswa');
 	}
 
-  public function showData($param = null)
-  {
-    $this->load->view('siswa/v-index');
-  }
-
   public function save()
   {
     if($this->validate() == true) {
